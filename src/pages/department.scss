@@ -1,0 +1,47 @@
+.department{
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    >.dept-container{
+        width: calc(100% - 200px);
+        border: 1px solid red;
+        height: 100vh;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        padding-top: 150px;
+        >.main-container{
+            width: 500px;
+            height: 300px;
+            display: flex;
+            justify-content: space-between;
+        
+            >.kitchen {
+                >p{
+                font-size: 24px;
+                font-weight: 700px;
+                font-family: sans-serif;
+                cursor: pointer;
+                }
+            }
+            >.clothing {
+                >p{
+                font-size: 24px;
+                font-weight: 700px;
+                font-family: sans-serif;
+                cursor: pointer;
+             }
+        }
+            >.toys{
+                >p{
+                    font-size: 24px;
+                    font-weight: 700px;
+                    font-family: sans-serif;
+                    cursor: pointer;
+                 }
+            }
+    }
+
+    }
+}

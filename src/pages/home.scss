@@ -1,0 +1,41 @@
+.home{
+    width: 100vw;
+    min-height: 100vh;
+    
+    display: flex;
+
+    >.dashboard-container{
+        width: calc(100% - 200px);
+        height: 100vh;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        padding-top: 150px;
+        >.container{
+            width: 600px;
+            height: 300px;
+            display: flex;
+            justify-content: space-between;
+        
+            >.totalStock {
+                >p{
+                font-size: 24px;
+                font-weight: 600px;
+                }
+            }
+            >.totalDelivered {
+                >p{
+                font-size: 24px;
+                font-weight: 600px;
+             }
+        }
+            >.totalLow{
+                >p{
+                    font-size: 24px;
+                    font-weight: 600px;
+                 }
+            }
+    }
+
+    }
+}

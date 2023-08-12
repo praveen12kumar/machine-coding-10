@@ -1,0 +1,19 @@
+.dashboard{
+    width: 200px;
+    height: 100vh;
+    background-color: slategrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+
+    >.dash{
+        font-weight: 700;
+    }
+    >.dept{
+        font-weight: 700;
+    }
+    >.prod{
+        font-weight: 700;
+    }
+}
