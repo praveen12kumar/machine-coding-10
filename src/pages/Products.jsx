@@ -81,7 +81,7 @@ const Products = () => {
           </div>
           
           <div className="newProduct">
-            <button className='new-button'>New</button>
+            <button className='new-button' onClick={()=> navigate('/new')}  >New</button>
           </div>
 
           </div>
